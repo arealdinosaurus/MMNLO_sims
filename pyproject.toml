@@ -1,0 +1,13 @@
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mm_gnlse"          # the name users will pip‑install
+version = "0.1.0"
+authors = [{name="Your Name", email="you@example.com"}]
+description = "Multimode (3‑D) GNLS fibre simulator"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["jax", "diffrax", "numpy", "scipy", "matplotlib"]
